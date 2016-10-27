@@ -9,6 +9,13 @@ using Newtonsoft.Json.Linq;
 
 namespace EconnectTMSservice
 {
+     
+     /*
+      * ClsAccountOpening.cs
+      *
+      *      Created on: Oct 14, 2016
+      *      Author: Simon Maingi
+      */
     class ClsAccountOpening
     {
         public string strIDNo = "";
