@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D894EAAB-3B2C-4542-9FE7-B9CC2E312B67}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EconnectTMSservice</RootNamespace>
+    <AssemblyName>EconnectTMSservice</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySecurity">
+      <HintPath>G:\Atlantis\tms vesion 1.1 20-04-2013_pin verification\eAgency_TMS_Service\MySecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SED3">
+      <HintPath>G:\Atlantis\tms vesion 1.1 20-04-2013_pin verification\eAgency_TMS_Service\SED3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Winsock Orcas">
+      <HintPath>G:\Atlantis\tms vesion 1.1 20-04-2013_pin verification\eAgency_TMS_Service\Winsock Orcas.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsAcceptCash.cs" />
+    <Compile Include="ClsAccountlinking.cs" />
+    <Compile Include="ClsAccountOpening.cs" />
+    <Compile Include="ClsAgentFloat.cs" />
+    <Compile Include="ClsAgentTellerEODTransactions.cs" />
+    <Compile Include="ClsBalanceEnquiry.cs" />
+    <Compile Include="ClsBillspayments.cs" />
+    <Compile Include="ClsCardlessFulfilment.cs" />
+    <Compile Include="ClsCardlessOrigination.cs" />
+    <Compile Include="ClsCashDeposit.cs" />
+    <Compile Include="ClsCashRequest.cs" />
+    <Compile Include="ClsCashwithdrawal.cs" />
+    <Compile Include="ClsChangePassword.cs" />
+    <Compile Include="ClsChequeDeposit.cs" />
+    <Compile Include="ClsConfirmDeposit.cs" />
+    <Compile Include="ClsEbankingconnections.cs" />
+    <Compile Include="ClsEconnectConnections.cs" />
+    <Compile Include="ClsFundsTransfer.cs" />
+    <Compile Include="ClsLoanRepaymentEbank.cs" />
+    <Compile Include="ClsLogin.cs" />
+    <Compile Include="ClsMain.cs" />
+    <Compile Include="ClsMerchant.cs" />
+    <Compile Include="ClsMinistatement.cs" />
+    <Compile Include="ClsMobileTopup.cs" />
+    <Compile Include="ClsNIDLookup.cs" />
+    <Compile Include="ClsReprint.cs" />
+    <Compile Include="ClsRequestexcesscash.cs" />
+    <Compile Include="ClsRequestFordeposit.cs" />
+    <Compile Include="ClsReversalRequests.cs" />
+    <Compile Include="ClsSharedFunctions.cs" />
+    <Compile Include="ClsShortageCash.cs" />
+    <Compile Include="ClsTellerOpeartions.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AccountOpeningRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service1.Designer.cs">
+      <DependentUpon>Service1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Install.cmd" />
+    <None Include="packages.config" />
+    <None Include="Service References\AccountOpeningRef\Request.wsdl" />
+    <None Include="Uninstall.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AccountOpeningRef\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountOpeningRef\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountOpeningRef\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountOpeningRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://Incoming/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="Request" targetNamespace="http://Incoming/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://Incoming/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="NIDRequest" type="tns:NIDRequest" />
+      <xs:element name="NIDRequestResponse" type="tns:NIDRequestResponse" />
+      <xs:element name="OpenAccount" type="tns:OpenAccount" />
+      <xs:element name="OpenAccountResponse" type="tns:OpenAccountResponse" />
+      <xs:element name="SelfReg" type="tns:SelfReg" />
+      <xs:element name="SelfRegResponse" type="tns:SelfRegResponse" />
+      <xs:complexType name="NIDRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idnumber" type="xs:string" />
+          <xs:element minOccurs="0" name="phonenumber" type="xs:string" />
+          <xs:element minOccurs="0" name="session" type="xs:string" />
+          <xs:element minOccurs="0" name="channel" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="NIDRequestResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TranResponse" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OpenAccount">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="session" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OpenAccountResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TranResponse" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SelfReg">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TranDetails" type="xs:string" />
+          <xs:element minOccurs="0" name="AuthKey" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SelfRegResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TranResponse" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="OpenAccount">
+    <wsdl:part name="parameters" element="tns:OpenAccount" />
+  </wsdl:message>
+  <wsdl:message name="SelfRegResponse">
+    <wsdl:part name="parameters" element="tns:SelfRegResponse" />
+  </wsdl:message>
+  <wsdl:message name="NIDRequest">
+    <wsdl:part name="parameters" element="tns:NIDRequest" />
+  </wsdl:message>
+  <wsdl:message name="NIDRequestResponse">
+    <wsdl:part name="parameters" element="tns:NIDRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="OpenAccountResponse">
+    <wsdl:part name="parameters" element="tns:OpenAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelfReg">
+    <wsdl:part name="parameters" element="tns:SelfReg" />
+  </wsdl:message>
+  <wsdl:portType name="IncomingTransaction">
+    <wsdl:operation name="NIDRequest">
+      <wsdl:input name="NIDRequest" message="tns:NIDRequest" />
+      <wsdl:output name="NIDRequestResponse" message="tns:NIDRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="OpenAccount">
+      <wsdl:input name="OpenAccount" message="tns:OpenAccount" />
+      <wsdl:output name="OpenAccountResponse" message="tns:OpenAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SelfReg">
+      <wsdl:input name="SelfReg" message="tns:SelfReg" />
+      <wsdl:output name="SelfRegResponse" message="tns:SelfRegResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RequestSoapBinding" type="tns:IncomingTransaction">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NIDRequest">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="NIDRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="NIDRequestResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OpenAccount">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="OpenAccount">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="OpenAccountResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelfReg">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="SelfReg">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SelfRegResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Request">
+    <wsdl:port name="IncomingTransactionPort" binding="tns:RequestSoapBinding">
+      <soap:address location="http://41.186.47.25:8081/NIDRwanda_Test/Request/IncomingTransaction" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

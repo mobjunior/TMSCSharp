@@ -1,0 +1,36 @@
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csprojResolveAssemblyReference.cache
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.ProjectInstaller.resources
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csproj.GenerateResource.Cache
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe.config
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.pdb
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\bin\Debug\MySecurity.dll
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\bin\Debug\SED3.dll
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\bin\Debug\Winsock Orcas.dll
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.exe
+C:\projects\Rwanda\Atlantis\Atlantis\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.pdb
+C:\julius\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe.config
+C:\julius\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.exe
+C:\julius\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.pdb
+C:\julius\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe
+C:\julius\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.pdb
+C:\julius\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csprojResolveAssemblyReference.cache
+C:\julius\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.ProjectInstaller.resources
+C:\julius\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe.config
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.exe
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.pdb
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.pdb
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.ProjectInstaller.resources
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Kiche Sources\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csprojResolveAssemblyReference.cache
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe.config
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.exe
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.pdb
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.exe
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\bin\Debug\EconnectTMSservice.pdb
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.ProjectInstaller.resources
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\obj\x86\Debug\EconnectTMSservice.csproj.GenerateResource.Cache
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mainge\Documents\BitelHelp\EconnectTMSservice\EconnectTMSservice\bin\Debug\Newtonsoft.Json.xml
